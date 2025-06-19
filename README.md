@@ -54,3 +54,14 @@ Se utiliza para **proteger el acceso concurrente** a variables compartidas entre
 
 Cada segundo se imprime:
 
+Se ha producido una interrupción. Total: 1
+Se ha producido una interrupción. Total: 2
+Se ha producido una interrupción. Total: 3
+
+---
+
+## Conclusión
+
+Esta práctica muestra cómo utilizar los **temporizadores por hardware del ESP32** y cómo manejar interrupciones de manera segura. Este enfoque es ideal para aplicaciones en tiempo real donde se requieren acciones periódicas sin bloquear el flujo principal del programa.
+
+
